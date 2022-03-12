@@ -78,7 +78,9 @@ def run_optimisation(
     ]
     optimised_profit = optimiser_func(max_limit, capacity, profit, num_of_paints)
 
+    #######################################
     # retrieve solution from the temp table
+    #######################################
     list_result = []
     tmp_limit = max_limit
     tmp_profit = optimised_profit
