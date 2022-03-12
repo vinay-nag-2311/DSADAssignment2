@@ -138,4 +138,3 @@ if __name__ == '__main__':
 
     # write output into required path
     write_output(output_file_path, output)
-
